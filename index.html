@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sorting Algorithm Visualiser</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p>This sorting algorithm visualiser allows users to see either bubble sort or merge sort in action. The visualiser will create an array of random values based on the number of values entered. You can also choose the time it takes to perform one step of the sorting algorithm.</p>
+  <div id="container">
+    
+  </div>
+  <div id="button-container">
+    
+    <label id="number-label">
+      Number of values: 
+      <input type="number" min="1" max="200" id="select-number"/>
+    </label>
+    <select id="chooseSort">
+      <option value="Choose Sort">Choose Sort</option>
+      <option value="mergeSort">Merge Sort</option>
+      <option value="bubbleSort">Bubble Sort</option>
+    </select>
+    <button id="create-button">Create</button>
+    <label id="time-label" style="display:none">
+      Milliseconds per step: 
+      <input type="number" id="select-time"/>
+    </label>
+    <button id="start-button">Start</button>
+    <button id="reset-button">Reset</button>
+    <p id="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+

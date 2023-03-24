@@ -1,0 +1,34 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    text-align:center;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.bar{
+    width: 9px;
+    background-color: aqua;
+    border: 1px solid black;
+    align-self: flex-end;
+    
+}
+
+#button-container{
+    text-align:center;
+}
+
+
+
+#reset-button{
+    display: none;
+}
+
+#start-button{
+    display: none;
+}
